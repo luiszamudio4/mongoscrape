@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>BBC News</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.0.0/materia/bootstrap.min.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+SC" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="/">BBC News Scraper</a>
+  <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false"
+    aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor01">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="/">Home
+          <span class="sr-only">(current)</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/saved">Saved Articles</a>
+      </li>
+      <li class="nav-item">
+        <a class="btn btn-danger scrape-new">SCRAPE NEW ARTICLES!</a>
+      </li>
+      <li class="nav-item">
+        <a class="btn btn-danger clear">CLEAR ARTICLES!</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="jumbotron text-center">
+  <div class="overlay">
+  </div>
+  <div class="background-image">
+  </div>
+  <div class="caption">
+    <h1>News Scraper</h1>
+    <p>BBC Edition</p>
+  </div>
+</div>
+<div class="container-fluid article-container">
+  <div data-_id="5d375b48c8e9040015af9c21" class="card">
+    <div class="card-header">
+      <h3>
+        <a class="article-link" target="_blank" rel="noopener noreferrer" href="https://www.nytimes.com/interactive/2019/07/23/dining/mercado-little-spain-review-pete-wells.html">The 20 Most Delicious Things at Mercado Little Spain</a>
+        <a class="btn btn-success save">Save Article</a>
+      </h3>
+    </div>
+    <div class="card-body">In Hudson Yards’ Spanish market, our critic found more great food and drinks per square foot than anywhere else in New York.</div>
+  </div>
+    <div data-_id="5d375b48c8e9040015af9c1f" class="card">
+    <div class="card-header">
+      <h3>
+        <a class="article-link" target="_blank" rel="noopener noreferrer" href="https://www.nytimes.com/2019/07/23/us/politics/mark-esper-secretary-defense.html">Mark Esper Is Confirmed as Defense SecretaryTrump Relies on Populist Language, but He Mostly Sides With Corporate InterestsDeVos Aides Pulled Strings for Failing For-Profit Colleges, Emails Show</a>
+        <a class="btn btn-success save">Save Article</a>
+      </h3>
+    </div>
+    <div class="card-body">President Trump’s inflammatory appeals to white working-class voters have not been matched by legislative accomplishments aimed at their financial well-being.Documents showed top officials under the education secretary, Betsy DeVos, tried to prop up Dream Center, a for-profit chain, as it neared collapse.</div>
+  </div>
+   </div>
+
+<footer class="footer">
+  <div class="container">
+    <p>New York Times Mongo Scraper</p>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
+<script src="/assets/javascript/index.js"></script>
+
+</body>
+
+</html>
